@@ -3,31 +3,31 @@
 
 html{
 	font: normal 100%/1.5 'Source Sans Pro', sans-serif; /* 16px/24px */;
+	color: #1C1D21;
 }
 
 ::selection{
-	background-color: #31353D;
+	background-color: #445878;
 	color: #fff;
 }
 
 a,
 a: link {
-	color: red;
+	color: #445878;
 	text-decoration: none;
-	border-bottom: 0.1em solid rgba(255, 0, 0, 0.5);
 	transition: all 200ms linear;
 }
 
 a:visited {
-	color: fuchsia;
-	border-bottom: fuchsia;
+	color: #445878;
+	border-bottom: #445878;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: pink;
-	border-bottom: pink;
+	color: #92CDCF;
+	border-bottom: #92CDCF;
 }
 
 .yotta {
@@ -45,34 +45,46 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockhead, table {
 margin: 0 0 1.5rem;
-}
+}	 
 
 h1, .exa {
+	font-family: 'Oxygen', sans-serif;
+	color: #445878;
 	font-size: 1.802rem;
 	line-height: 1.6648;	
 }
 
 h2, .peta {
+	font-family: 'Oxygen', sans-serif;
+	color: #445878;
 	font-size: 1.602rem;
 	line-height: 1.8729;	
 }
 
 h3, .tera {
+	font-family: 'Oxygen', sans-serif;
+	color: #445878;
 	font-size: 1.424rem;
 	line-height: 1.0535;	
 }
 
 h4, .giga {
+	font-family: 'Oxygen', sans-serif;
+	color: #445878;
 	font-size: 1.266rem;
 	line-height: 1.1852;	
 }
 
 h5, .mega {
+	font-family: 'Oxygen', sans-serif;
+	color: #445878;
 	font-size: 1.125rem;
 	line-height: 1.3333;	
 }
 
 h6, .kilo {
+	font-family: 'Oxygen', sans-serif;
+	color: #445878;
 	font-size: 1rem;	
 	line-height: 1.5000;
 }
@@ -89,15 +101,17 @@ small, .milli {
 
 ul {
 	list-style-type: none;
+	color: #31353D;
 }
 
 ul li{
 	position: relative;
+	color: #31353D;
 }
 
 ul li:before {
 	content:"·";
-	color: #ccc;
+	color: #31353D;
 	position: absolute;
 	left: -1.3em;
 }
