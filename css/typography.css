@@ -2,11 +2,11 @@
 /* CSS Document */
 
 html{
-	font: normal 100%/1.5 Georgie, serif; /* 16px/24px */;
+	font: normal 100%/1.5 'Source Sans Pro', sans-serif; /* 16px/24px */;
 }
 
 ::selection{
-	background-color: red;
+	background-color: #31353D;
 	color: #fff;
 }
 
