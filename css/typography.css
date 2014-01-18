@@ -115,3 +115,37 @@ ul li:before {
 	position: absolute;
 	left: -1.3em;
 }
+
+table th {
+
+
+.contact-table td{
+	padding: 1rem 1rem;
+	text-align: left;
+	font-family: 'Maven Pro', sans-serif;
+	line-height: 2em;
+	font-size: 12px;
+}
+
+.contact-table th{
+	text-align:center;
+	padding: 1rem 1rem;
+	font-family: 'Josefin Slab', serif;
+	color: #a41d25;
+	line-height: 2em;
+	font-size: 16px;
+}
+
+.contact-table tr:nth-child(even){
+	background-color: #fff;
+}
+
+.contact-table tr:last-child{
+	border-bottom: 0px solid #666;
+}
+
+.contact-table{
+	margin-bottom: 2rem;
+	width: 100%;
+	display: none;
+}
