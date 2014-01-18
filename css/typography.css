@@ -117,35 +117,20 @@ ul li:before {
 }
 
 table th {
-
-
-.contact-table td{
-	padding: 1rem 1rem;
-	text-align: left;
-	font-family: 'Maven Pro', sans-serif;
-	line-height: 2em;
-	font-size: 12px;
+	font-family: 'Oxygen', sans-serif;
+	color: #445878;
 }
 
-.contact-table th{
-	text-align:center;
-	padding: 1rem 1rem;
-	font-family: 'Josefin Slab', serif;
-	color: #a41d25;
-	line-height: 2em;
-	font-size: 16px;
+table td {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #31353D;
 }
 
-.contact-table tr:nth-child(even){
-	background-color: #fff;
+table tr:nth-child(even){
+	background-color: #EEEFF7;
 }
 
 .contact-table tr:last-child{
-	border-bottom: 0px solid #666;
+	border-bottom: 1px solid #92CDCF;
 }
 
-.contact-table{
-	margin-bottom: 2rem;
-	width: 100%;
-	display: none;
-}
