@@ -19,7 +19,7 @@ html{
 }
 
 a,
-a: link {
+a:link {
 	color: #fff;
 	text-decoration: none;
 	transition: all 200ms linear;
@@ -117,7 +117,7 @@ ul li{
 }
 
 ul li:before {
-	content:"·";
+	content:"";
 	color: #31353D;
 	position: absolute;
 	left: -1.3em;
