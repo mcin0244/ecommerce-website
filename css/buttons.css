@@ -49,6 +49,9 @@
 	color:#ffffff;
 	padding:5px 31px;
 	text-decoration:none;
+	float: right;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
 }
 
 .btn2:hover {

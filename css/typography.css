@@ -113,7 +113,7 @@ ul {
 
 ul li{
 	position: relative;
-	color: #31353D;
+	color: #ccc;
 }
 
 ul li:before {
