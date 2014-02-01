@@ -1,7 +1,7 @@
  header img {
-	 max-height: 150px;
-	 margin-left: auto;
-    margin-right: auto;
+	max-height: 150px;
+	margin-left: auto;
+	margin-right: auto;
  }
  
 /* Navigation Styles */
@@ -14,7 +14,6 @@
 	width: 40px;
 	position: absolute;
 	top: 10px;	
-	right: 5%;
 	background: #fff url(../images/nav-icon.svg) no-repeat center center;
 	/* background-color || background-image || background-repeat || background-position*/
 }
@@ -46,11 +45,11 @@
 	/* Toggle Nav*/
 
 .nav-top{
-		display: none;
+	display: none;
 }
 
 .nav-top[data-state="expanded"]{
-		display: block;
+	display: block;
 }
 	
 @media only screen and (min-width: 25em){
@@ -64,49 +63,44 @@
 	width: 33.33%;
 }
 	
-	.nav-btn,
-	.nav-btn:link,
-	.nav-btn:visited{
-		display: none;
-	}
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display: none;
+}
 	
-	.nav-top{
-		display: block;
-	}
+.nav-top{
+	display: block;
+}
+
 }
 
 @media only screen and (min-width: 35em){
-	.nav{
-		background-color: #ccc;
-		text-align: center;
-	}
+.nav{
+	background-color: #fff;
+	text-align: center;
+}
 	
-	.nav li{
-		display: inline-block;
-		float: center;
-		margin: 0;
-		width:auto;
-	}
+.nav li{
+	display: inline-block;
+	margin-left: auto;
+   margin-right: auto;
+	width:auto;
+}
 	
-	.nav a, 
-	.nav a:link,
-	.nav a:visited{
-		border-top: 0;
-	}
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	border-top: 0;
+}
 	
-	.nav-top{
-		float: right;
-		margin-right: 5%;
-	}
+.nav-top{
+	margin-left: auto;
+	margin-right: auto;
+}
 	
-	h1{
-		float: left;
-		width: auto;
-		margin-left: 5%;
-	}
-	
-	header{
-		overflow: auto;
-	}
+header{
+	overflow: auto;
+}
 
 }
