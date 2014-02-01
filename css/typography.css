@@ -137,7 +137,4 @@ table tr:nth-child(even){
 	background-color: #EEEFF7;
 }
 
-.contact-table tr:last-child{
-	border-bottom: 1px solid #92CDCF;
-}
 

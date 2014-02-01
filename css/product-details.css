@@ -1,3 +1,34 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.media{
+	border: 1px solid rgb(49, 53, 61);
+	overflow: hidden;
+	width: 50%;
+	float: center;
+}
+
+.media img{
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+
+.media-img-stacked {
+	float: none;
+	margin: 0;
+}
+
+.media-body{
+	overflow: hidden;
+}
+
+.media p{
+	margin: 10px 10px 10px 10px;
+}
+
+.media h2{
+	margin: 10px 10px 10px 10px;
+	float: center;
+}
